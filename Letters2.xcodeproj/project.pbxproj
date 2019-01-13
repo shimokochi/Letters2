@@ -8,19 +8,33 @@
 
 /* Begin PBXBuildFile section */
 		B59CB75A21B6643F009E02AE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B59CB75921B6643F009E02AE /* AppDelegate.swift */; };
-		B59CB75C21B6643F009E02AE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B59CB75B21B6643F009E02AE /* ViewController.swift */; };
 		B59CB75E21B66442009E02AE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B59CB75D21B66442009E02AE /* Assets.xcassets */; };
 		B59CB76121B66442009E02AE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B59CB75F21B66442009E02AE /* Main.storyboard */; };
+		B59CB77321B7AF5A009E02AE /* El Capitan.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B59CB77221B7AF5A009E02AE /* El Capitan.jpg */; };
+		B59CB77521B7BEEF009E02AE /* SidebarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B59CB77421B7BEEF009E02AE /* SidebarViewController.swift */; };
+		B59CB77D21BA646C009E02AE /* WIndowSplitViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B59CB77C21BA646C009E02AE /* WIndowSplitViewController.swift */; };
+		B59CB77F21BA90BC009E02AE /* ImageInspectorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B59CB77E21BA90BC009E02AE /* ImageInspectorViewController.swift */; };
+		B59CB78221BE5320009E02AE /* AAAreaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B59CB78121BE5320009E02AE /* AAAreaViewController.swift */; };
+		B59CB78421BE5523009E02AE /* AAPropertyModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B59CB78321BE5523009E02AE /* AAPropertyModel.swift */; };
+		B59CB78621BE5F42009E02AE /* MainWindowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B59CB78521BE5F42009E02AE /* MainWindowController.swift */; };
+		B5D80A9D21C3715700C8CB1E /* CreateAAModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5D80A9C21C3715700C8CB1E /* CreateAAModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		B59CB75621B6643F009E02AE /* Letters2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Letters2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B59CB75921B6643F009E02AE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		B59CB75B21B6643F009E02AE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		B59CB75D21B66442009E02AE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B59CB76021B66442009E02AE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B59CB76221B66442009E02AE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B59CB76321B66442009E02AE /* Letters2.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Letters2.entitlements; sourceTree = "<group>"; };
+		B59CB77221B7AF5A009E02AE /* El Capitan.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "El Capitan.jpg"; path = "../../../../../Pictures/Desktop Pictures(High Sierra)/El Capitan.jpg"; sourceTree = "<group>"; };
+		B59CB77421B7BEEF009E02AE /* SidebarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SidebarViewController.swift; sourceTree = "<group>"; };
+		B59CB77C21BA646C009E02AE /* WIndowSplitViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WIndowSplitViewController.swift; sourceTree = "<group>"; };
+		B59CB77E21BA90BC009E02AE /* ImageInspectorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageInspectorViewController.swift; sourceTree = "<group>"; };
+		B59CB78121BE5320009E02AE /* AAAreaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AAAreaViewController.swift; sourceTree = "<group>"; };
+		B59CB78321BE5523009E02AE /* AAPropertyModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AAPropertyModel.swift; sourceTree = "<group>"; };
+		B59CB78521BE5F42009E02AE /* MainWindowController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainWindowController.swift; sourceTree = "<group>"; };
+		B5D80A9C21C3715700C8CB1E /* CreateAAModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateAAModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,14 +67,93 @@
 		B59CB75821B6643F009E02AE /* Letters2 */ = {
 			isa = PBXGroup;
 			children = (
-				B59CB75921B6643F009E02AE /* AppDelegate.swift */,
-				B59CB75B21B6643F009E02AE /* ViewController.swift */,
-				B59CB75D21B66442009E02AE /* Assets.xcassets */,
+				B59CB76921B66773009E02AE /* Sources */,
+				B59CB76F21B66893009E02AE /* Supporting Files */,
+				B59CB76B21B667BC009E02AE /* Resources */,
+			);
+			path = Letters2;
+			sourceTree = "<group>";
+		};
+		B59CB76921B66773009E02AE /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				B59CB78821C25514009E02AE /* Model */,
+				B59CB77021B66911009E02AE /* MainWIndow */,
+				B59CB76C21B667ED009E02AE /* Application */,
+			);
+			name = Sources;
+			sourceTree = "<group>";
+		};
+		B59CB76B21B667BC009E02AE /* Resources */ = {
+			isa = PBXGroup;
+			children = (
 				B59CB75F21B66442009E02AE /* Main.storyboard */,
+				B59CB77221B7AF5A009E02AE /* El Capitan.jpg */,
+				B59CB75D21B66442009E02AE /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		B59CB76C21B667ED009E02AE /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				B59CB75921B6643F009E02AE /* AppDelegate.swift */,
+			);
+			name = Application;
+			sourceTree = "<group>";
+		};
+		B59CB76F21B66893009E02AE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
 				B59CB76221B66442009E02AE /* Info.plist */,
 				B59CB76321B66442009E02AE /* Letters2.entitlements */,
 			);
-			path = Letters2;
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B59CB77021B66911009E02AE /* MainWIndow */ = {
+			isa = PBXGroup;
+			children = (
+				B59CB78721C22238009E02AE /* SplitViewController */,
+				B59CB78021BE5300009E02AE /* AAArea */,
+				B59CB77121B7A6EA009E02AE /* Sidebar */,
+				B59CB78521BE5F42009E02AE /* MainWindowController.swift */,
+			);
+			name = MainWIndow;
+			sourceTree = "<group>";
+		};
+		B59CB77121B7A6EA009E02AE /* Sidebar */ = {
+			isa = PBXGroup;
+			children = (
+				B59CB77E21BA90BC009E02AE /* ImageInspectorViewController.swift */,
+				B59CB77421B7BEEF009E02AE /* SidebarViewController.swift */,
+			);
+			name = Sidebar;
+			sourceTree = "<group>";
+		};
+		B59CB78021BE5300009E02AE /* AAArea */ = {
+			isa = PBXGroup;
+			children = (
+				B59CB78121BE5320009E02AE /* AAAreaViewController.swift */,
+			);
+			name = AAArea;
+			sourceTree = "<group>";
+		};
+		B59CB78721C22238009E02AE /* SplitViewController */ = {
+			isa = PBXGroup;
+			children = (
+				B59CB77C21BA646C009E02AE /* WIndowSplitViewController.swift */,
+			);
+			name = SplitViewController;
+			sourceTree = "<group>";
+		};
+		B59CB78821C25514009E02AE /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				B59CB78321BE5523009E02AE /* AAPropertyModel.swift */,
+				B5D80A9C21C3715700C8CB1E /* CreateAAModel.swift */,
+			);
+			name = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -121,6 +214,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B59CB77321B7AF5A009E02AE /* El Capitan.jpg in Resources */,
 				B59CB75E21B66442009E02AE /* Assets.xcassets in Resources */,
 				B59CB76121B66442009E02AE /* Main.storyboard in Resources */,
 			);
@@ -133,8 +227,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B59CB75C21B6643F009E02AE /* ViewController.swift in Sources */,
+				B59CB77521B7BEEF009E02AE /* SidebarViewController.swift in Sources */,
+				B59CB77D21BA646C009E02AE /* WIndowSplitViewController.swift in Sources */,
+				B59CB77F21BA90BC009E02AE /* ImageInspectorViewController.swift in Sources */,
 				B59CB75A21B6643F009E02AE /* AppDelegate.swift in Sources */,
+				B59CB78421BE5523009E02AE /* AAPropertyModel.swift in Sources */,
+				B5D80A9D21C3715700C8CB1E /* CreateAAModel.swift in Sources */,
+				B59CB78621BE5F42009E02AE /* MainWindowController.swift in Sources */,
+				B59CB78221BE5320009E02AE /* AAAreaViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
